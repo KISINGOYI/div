@@ -1,0 +1,197 @@
+ body{
+    background-color:#A0A0A4;
+}
+#header{
+    /*border: 2px solid black;*/
+   height: 150px;
+   width: 1400px;
+   margin: auto;
+   background-image: url("op.JPG");
+   }
+   #Menu{
+      /* border: 2px solid;*/
+       height: 40px;
+       }
+   #Corps{
+           /* border: 2px solid black; */
+           height: 800px;
+           }
+   #Footer{
+               border: 2px solid black;
+               height: 200px;
+               background-color: black;
+               }
+           
+               /* CSS Document */
+               
+               
+               body {
+                   
+               
+               /* for pull-down menu to work in IE6*/
+               behavior:url("csshover2.htc");
+               
+               }
+               
+               /* pull-down mainmenu css */
+               .mainmenu{
+                   float: left;
+                   width: 100%;
+                   padding: 0;
+               }
+               .mainmenu ul {
+                   float: left;
+                   width: 100%;
+                   list-style: none;
+                   line-height: 1;
+                   color:white;
+                   background: rgb(194, 184, 184);
+                   padding: 0;
+                   border: solid #A0A0A4;
+                   border-width: 1px 0;
+                   margin: 0 0 1em 0;
+               }
+               
+               .mainmenu a, .mainmenu a:visited {
+                   display: block;
+               font-family:Arial, Helvetica, sans-serif;font-size:0.8em;font-weight:bold;font-style:normal;text-decoration:underline;
+                   color: #000000;
+                   text-decoration: none;
+                   padding: 1em 1em;
+               }
+               .mainmenu ul ul a{
+                   width:100%;
+                   height:100%;
+               }
+               .mainmenu ul a{
+                   width:1%;
+               }
+               
+               
+               .mainmenu li  {
+                   float: left;
+                   margin:0;
+                   padding:0;
+               }
+               
+               .mainmenu ul li {float:left; position:relative;  }
+               .mainmenu ul li a {white-space:nowrap;}
+                   
+               .mainmenu li ul {
+                   position: absolute;
+                   left: -999em;
+                   height: auto;
+                   width:15em;	
+                   
+                   background: #050505;
+                   font-weight: normal;
+                   border-width: 1px;
+                   margin: 0;
+               }
+               
+               .mainmenu li li {
+                   width:15em ;
+               }
+               
+               .mainmenu li li a{
+                   width:13em ;
+               }
+               
+               .mainmenu li ul  {
+                   margin: 0;
+               }
+               .mainmenu li ul ul {
+                   margin: -2.8em 0 0 13.5em;
+               }
+               .ul_ch, 
+               .mainmenu li:hover ul ul,
+               .mainmenu li li:hover ul ul,
+               .mainmenu li li li:hover ul ul,
+               .mainmenu li li li li:hover ul ul,
+               .mainmenu li li li li li:hover ul ul
+               {
+                   left: -999em;
+               }
+               .mainmenu li:hover ul,
+               .mainmenu li li:hover ul,
+               .mainmenu li li li:hover ul,
+               .mainmenu li li li li:hover ul,
+               .mainmenu li li li li li:hover ul
+               {
+                   left: auto;
+               }
+               .mainmenu li:hover>ul.ul_ch   
+               {
+                   left: auto;
+               }
+               
+               .mainmenu li:hover{
+                   background: #c7c1c1af;
+               }
+               
+               .mainmenu li:hover a,.mainmenu li:hover a:visited,.mainmenu li:hover a:hover,.mainmenu li a:hover{
+                   color:#c7c1c1af;
+               }
+               .mainmenu li:hover li a, .mainmenu li li:hover li a, 
+               .mainmenu li li li:hover li a, .mainmenu li li li li:hover li a,
+               .mainmenu li:hover li a:visited, .mainmenu li li:hover li a:visited, 
+               .mainmenu li li li:hover li a:visited, .mainmenu li li li li:hover li a:visited
+               {
+                   color:#c7c1c1af;
+               }
+               .mainmenu li li:hover, .mainmenu li li li:hover, 
+               .mainmenu li li li li:hover , .mainmenu li li li li li:hover , .mainmenu li li li li li li:hover 
+               {
+                   background: #c7c1c1af;
+                   z-index:9999;
+               }
+               .mainmenu li li:hover a,.mainmenu li li li:hover a, 
+               .mainmenu li li li li:hover a, .mainmenu li li li li li:hover a
+               {
+                   color: #c7c1c1af; 
+               }
+               
+               .mainmenu ul ul a, .mainmenu ul ul a:visited,
+               .mainmenu li li a, .mainmenu li li a:visited
+               {
+                   color: #c7c1c1af;
+               }
+               .mainmenu ul ul a:hover,
+               .mainmenu li:hover li:hover a,.mainmenu li:hover li:hover a:visited ,
+               .mainmenu li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover a:visited,
+               .mainmenu li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover a:visited ,
+               .mainmenu li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover a:visited,
+               .mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a,.mainmenu li:hover li:hover li:hover li:hover li:hover li:hover a:visited{
+                   color: #c7c1c1af;
+               }
+               .mainmenu li:hover li:hover li a,.mainmenu li:hover li:hover li a:visited ,
+               .mainmenu li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li a:visited,
+               .mainmenu li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li a:visited,
+               .mainmenu li:hover li:hover li:hover li:hover li:hover li a,.mainmenu li:hover li:hover li:hover li:hover li:hover li a:visited{
+                   color: #b30012;
+               }
+               
+               
+               /* end of mainmenu css */
+               
+                   fieldset{
+                       border-radius: 10px;
+                     width: 900px;
+                     margin-left: 195px;
+                     height: 200px;
+                border: 4px solid black;
+                background-image: url("jaens.jpg") ;
+                   }
+               legend{
+                   font-size: 1.4em;
+                   margin-bottom: 10px;
+                   font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+                }
+             #liens li{
+                 text-decoration:none;
+                 align-items: center;
+                
+             }
+             #liens li{
+                 text-decoration: none;
+             }

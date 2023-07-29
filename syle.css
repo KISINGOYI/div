@@ -1,0 +1,23 @@
+body 
+{
+background-color: rgb(203, 214, 214);
+}
+#header{
+border: solid black;
+height: 150px;
+width: 1400px;
+margin: auto;
+}
+#menus{
+    border: 2px solid black;
+ height: 1200px;
+ width: 1400px;
+}
+#corps{
+    height: 2px;
+    width: 800px;
+}
+#pied{
+    border: 2px solid black;
+    height: 200px;
+}
